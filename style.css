@@ -13,15 +13,11 @@
 }
 
 .cabecalho logo{
-  width: 30%
+  width: 15%;
 }
 
-.cabecalho nav{
-  width: 70%;
-}
-
-.cabecalho a{
-  width: 100%;
+.cabecalho menu{
+  width: 85%;
 }
 
 .menu a{
