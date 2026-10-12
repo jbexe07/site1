@@ -4,7 +4,7 @@
 }
 
 .cabecalho{
-  margin: 0% 15% 0% 15%;
+  margin: 3% 20% 0% 20%;
   border: 0.5px solid black;
   border-radius: 25px;
   background: #000000;
@@ -14,6 +14,10 @@
 
 .cabecalho img{
   width: 15%;
+}
+
+.cabecalho a{
+  width: 100%;
 }
 
 .menu a{
