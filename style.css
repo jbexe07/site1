@@ -4,7 +4,7 @@
 }
 
 .cabecalho{
-  margin: 3% 20% 0% 20%;
+  margin: 1% 23% 0% 23%;
   border: 0.5px solid black;
   border-radius: 25px;
   background: #000000;
@@ -12,8 +12,12 @@
   align-items: center;
 }
 
+.cabecalho logo{
+  width: 30%
+}
+
 .cabecalho img{
-  width: 15%;
+  width: 70%;
 }
 
 .cabecalho a{
