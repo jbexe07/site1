@@ -8,3 +8,8 @@
   display: flex;
 }
 
+.menu a{
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
