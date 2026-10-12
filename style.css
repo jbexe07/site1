@@ -17,6 +17,11 @@
 .menu a{
   text-align: center;
   text-decoration: none;
+  color: #F1F1F1;
+  font-family: calibri;
   padding: 10px;
 }
 
+.nav menu{
+  align-items: center;
+}
