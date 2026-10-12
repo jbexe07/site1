@@ -12,11 +12,11 @@
   align-items: center;
 }
 
-.cabecalho logo{
+.logo{
   width: 15%;
 }
 
-.cabecalho menu{
+nav{
   width: 85%;
 }
 
