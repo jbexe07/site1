@@ -8,8 +8,13 @@
   display: flex;
 }
 
+.cabecalho img{
+  width: 50%;
+}
+
 .menu a{
   text-align: center;
   text-decoration: none;
   padding: 10px;
 }
+
