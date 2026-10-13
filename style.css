@@ -155,11 +155,16 @@ body{
     margin: 250px 0px 0px 0px;
 }
 
+.video{
+    align-items: center;
+}
+
 .video iframe{
     border-radius: 25px;
     align-items: center;
     justify-content: center;
     margin: 20px 10px 180px 10px;
+    
 }
 
 footer{
