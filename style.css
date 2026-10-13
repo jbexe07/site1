@@ -157,6 +157,7 @@ body{
 
 .video{
     align-items: center;
+    gap: 20px;
 }
 
 .video iframe{
