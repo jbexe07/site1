@@ -1,31 +1,171 @@
-*{
-  margin: 0px;
-  padding: 0px;
+body{
+    margin: 0;
+    padding: 0;
+    background: #01010128;
 }
 
 .cabecalho{
-  background: #000000;
-  display: flex;
-  align-items: center;
+    margin-top: 1%;
+    border-radius: 30px;
+    margin-left: 29%;
+    margin-right: 29%;
+    background: #000000;
+    align-items: center;
+    display: flex;
 }
 
-.logo{
-  width: 15%;
+.cabecalho logo{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
 }
 
 .logo img{
-  height: 30px;
+    width: 60%;
 }
 
-nav{
-  align-items: center;
-  width: 85%;
+.cabecalho nav{
+    align-items: center;
+    margin-right: 20px;
 }
 
-.menu a{
-  text-align: center;
-  text-decoration: none;
-  color: #F1F1F1;
-  font-family: calibri;
-  padding: 10px;
+.menu-principal{
+    display: flex;
+    gap: 20px;
+}
+
+.menu-principal a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: calibri, Helvetica, sans-serif;
+    padding-right: 25px;
+}
+
+.conteudo h1 , h2{
+    text-align: center;
+    font-family: calibri, Helvetica, sans-serif;
+    font-size: 30px;
+    padding: 20px 0px 40px 0px; 
+    color: #ad0303;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 20px 80px 20px;
+
+}
+
+.imagem img{
+    width: auto;
+    height: auto;
+    border-radius: 25px;
+}
+
+.texto-principal{
+    width: 50%;
+}
+
+.texto-principal p{
+    margin: 20px;
+    font-family: calibri, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+.texto-principal h2{
+    margin: 20px;
+    font-family: calibri, Helvetica, sans-serif;
+    font-size: 25px;
+    color: #ad0303;
+}
+
+.integrantes{
+    display: block;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.integrantes img{
+    width: auto;
+    border-radius: 25px;
+    margin-left: 20px;
+}
+
+.integrantes h3{
+    margin: 20px;
+    font-family: calibri, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #ad0303;
+}
+
+.imagem-integrante{
+    width: auto;
+}
+
+.texto-integrante{
+    width: 50%;
+}
+
+.texto-integrante p{
+    margin: 20px;
+    font-family: calibri, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000000;
+}
+
+.integrante1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.integrante2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.integrante3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.midia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.conteudo h3{
+    text-align: center;
+    font-family: calibri, Helvetica, sans-serif;
+    font-size: 20px;
+    padding:0px; 
+    color: #ad0303;
+}
+
+.conteudo h2{
+    margin: 250px 0px 0px 0px;
+}
+
+.video iframe{
+    border-radius: 25px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px 180px 10px;
+}
+
+footer{
+    background: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: calibri, Helvetica, sans-serif;
 }
